@@ -882,7 +882,7 @@ fi
 
 if is_service_enabled heat; then
     stack_install_service heat
-    install_heat_other
+#    install_heat_other
     cleanup_heat
     configure_heat
 fi
